@@ -1,0 +1,28 @@
+The purpose of this program is to enter in a student's score and display the results 
+and grade of a student essay.
+
+The Essay class extends the graded activity class to inherit the methods.
+
+An Essay class object named finalScore is created in order to pass and
+return the variables to get a result.
+
+Created global variables for the grammar, content, spelling and correctlength scores.
+
+In main, a joption.pane asks for you to enter the student's name.
+
+It then asks you to enter in the number for each of the criteria with
+an if and do-while input validation statement to keep within the bounds of 
+the critera.
+
+The totals of each are then tallied up in scoreTotal, and is passed to the
+gradedactivity class where it will set and get the score. The score is then compared
+in the getGrade method where if it meets a certain criteria, it will return a 
+char that contains the letter grade that the student earned.
+
+In a joption pane, it displays the student's name and displays their final score,
+and the letter grade they earned. 
+
+The window closes and a new one opens which displays the individual scores
+that they earned for the 4 grading criteria, and the window closes and the
+program terminates.
+
